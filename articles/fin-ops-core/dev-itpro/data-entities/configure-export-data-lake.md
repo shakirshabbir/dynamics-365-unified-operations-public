@@ -213,7 +213,7 @@ You need the following information before you start. Keep the information handy 
 
 | Information you need for Export to Data lake add-in       | Where you can find it | Example |
 |-----------------------------------------------------------|-----------------------|---------|
-| Your environment Azure AD Tenant ID                       | Your Azure AD tenant ID in the Azure portal. Sign in to the **Azure portal** and open the **Azure Active Directory** service. Open the **Properties** page and copy the value in the **Directory ID** field. | 72f988bf-0000-0000-00000-2d7cd011db47 |
+| Your environment Azure AD Tenant ID                       | Your Azure AD tenant ID in the Azure portal. Sign in to the **Azure portal** and open the **Azure Active Directory** service. Open the **Properties** page and copy the value in the **Tenant ID** field. | 72f988bf-0000-0000-00000-2d7cd011db47 |
 | DNS name of your key vault                                | This name should have been previously saved. Enter the [DNS name](#dnsname) of your key vault | `https://contosod365datafeedpoc.vault.azure.net/` |
 | The secret that contains the name of your storage account | If you used the suggested name, enter **storage-account-name**. If not, enter the [secret name](#suggest) you defined. | storage-account-name |
 | Secret that contains the Application ID                   | If you used the suggested name, enter **app-id**. If not, enter the [secret name](#suggest) you defined. | app-id |
